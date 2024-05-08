@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "chrome-extension://opgmbgigadpdfdbfmbnhmbbkecppafek/index.js"
+      }
+    },
+    "condition": {
+      "urlFilter": "index-*.js",
+      "resourceTypes": ["script"],
+      "domains": ["pokerogue.net"]
+    }
+  }
+]
